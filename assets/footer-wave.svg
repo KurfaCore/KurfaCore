@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90" viewBox="0 0 1200 90" role="img" aria-label="Footer Wave">
+  <defs>
+    <linearGradient id="fWave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#8a3ffc" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ff007f" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="fWave2" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#8a3ffc" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ff007f" stop-opacity="0.18"/>
+    </linearGradient>
+
+    <linearGradient id="fStroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="50%" stop-color="#8a3ffc"/>
+      <stop offset="100%" stop-color="#ff007f"/>
+    </linearGradient>
+  </defs>
+
+  <g opacity="0.95">
+    <path fill="url(#fWave1)">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite" values="
+        M 0 90 L 0 35 Q 300 70 600 35 T 1200 35 L 1200 90 Z;
+        M 0 90 L 0 50 Q 300 15 600 45 T 1200 50 L 1200 90 Z;
+        M 0 90 L 0 35 Q 300 70 600 35 T 1200 35 L 1200 90 Z
+      "/>
+    </path>
+
+    <path fill="url(#fWave2)">
+      <animate attributeName="d" dur="12s" repeatCount="indefinite" values="
+        M 0 90 L 0 45 Q 350 10 700 40 T 1200 45 L 1200 90 Z;
+        M 0 90 L 0 30 Q 350 60 700 35 T 1200 30 L 1200 90 Z;
+        M 0 90 L 0 45 Q 350 10 700 40 T 1200 45 L 1200 90 Z
+      "/>
+    </path>
+
+    <path fill="none" stroke="url(#fStroke)" stroke-width="2.5" opacity="0.85">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite" values="
+        M 0 35 Q 300 70 600 35 T 1200 35;
+        M 0 50 Q 300 15 600 45 T 1200 50;
+        M 0 35 Q 300 70 600 35 T 1200 35
+      "/>
+    </path>
+  </g>
+</svg>

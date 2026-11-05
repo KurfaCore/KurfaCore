@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-label="GitHub Telemetry and Stack Distribution">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070a14"/>
+      <stop offset="100%" stop-color="#0c1020"/>
+    </linearGradient>
+
+    <linearGradient id="neonRim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#8a3ffc" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ff007f" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <linearGradient id="barGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#8a3ffc" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif">
+
+    <!-- ==================== LEFT CARD: CONTRIBUTION VELOCITY ==================== -->
+    <g transform="translate(0, 0)">
+      <rect x="0.5" y="0.5" width="588" height="208" rx="16" fill="url(#cardBg)" stroke="url(#neonRim)" stroke-width="1.2"/>
+
+      <text x="28" y="38" fill="#94a3b8" font-size="11.5" font-weight="700" letter-spacing="1.5">ANNUAL CONTRIBUTION VELOCITY</text>
+      <circle cx="558" cy="34" r="4.5" fill="#10b981">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Big Stat -->
+      <text x="28" y="90" fill="#f8fafc" font-size="44" font-weight="900" letter-spacing="-1">1,358+</text>
+      <text x="28" y="114" fill="#00e5ff" font-size="13" font-weight="600">Total Commits &amp; Contributions (Past Year)</text>
+
+      <!-- Mini badges -->
+      <rect x="28" y="134" width="130" height="46" rx="8" fill="#101528" stroke="#1e2744"/>
+      <text x="40" y="154" fill="#ffffff" font-size="14" font-weight="800">12+ Repos</text>
+      <text x="40" y="170" fill="#64748b" font-size="11">Active Codebases</text>
+
+      <rect x="168" y="134" width="138" height="46" rx="8" fill="#101528" stroke="#1e2744"/>
+      <text x="180" y="154" fill="#8a3ffc" font-size="14" font-weight="800">Edge Clusters</text>
+      <text x="180" y="170" fill="#64748b" font-size="11">Automated Deploy</text>
+
+      <!-- Bar Chart -->
+      <g transform="translate(320, 60)">
+        <rect x="0" y="0" width="242" height="120" rx="10" fill="#050811" stroke="#161f38"/>
+        <text x="16" y="22" fill="#94a3b8" font-size="10.5" font-weight="600">Commit Frequency</text>
+        <text x="226" y="22" fill="#10b981" font-size="10" font-weight="700" text-anchor="end">PEAK MOMENTUM</text>
+
+        <!-- 12 Bars -->
+        <g transform="translate(16, 32)">
+          <rect x="0"   y="50" width="12" height="20" rx="2" fill="url(#barGrad)" opacity="0.45"/>
+          <rect x="18"  y="44" width="12" height="26" rx="2" fill="url(#barGrad)" opacity="0.5"/>
+          <rect x="36"  y="48" width="12" height="22" rx="2" fill="url(#barGrad)" opacity="0.5"/>
+          <rect x="54"  y="38" width="12" height="32" rx="2" fill="url(#barGrad)" opacity="0.6"/>
+          <rect x="72"  y="30" width="12" height="40" rx="2" fill="url(#barGrad)" opacity="0.7"/>
+          <rect x="90"  y="22" width="12" height="48" rx="2" fill="url(#barGrad)" opacity="0.75"/>
+          <rect x="108" y="14" width="12" height="56" rx="2" fill="url(#barGrad)" opacity="0.85"/>
+          <rect x="126" y="8"  width="12" height="62" rx="2" fill="url(#barGrad)" opacity="0.9"/>
+          <rect x="144" y="4"  width="12" height="66" rx="2" fill="url(#barGrad)"/>
+          <rect x="162" y="10" width="12" height="60" rx="2" fill="url(#barGrad)" opacity="0.92"/>
+          <rect x="180" y="4"  width="12" height="66" rx="2" fill="url(#barGrad)"/>
+          <rect x="198" y="0"  width="12" height="70" rx="2" fill="#00e5ff"/>
+        </g>
+        <text x="121" y="112" fill="#475569" font-size="9" text-anchor="middle">Dec · Jan · Feb · Mar · Apr · May · Jun · Jul · Aug · Sep · Oct · Nov</text>
+      </g>
+    </g>
+
+    <!-- ==================== RIGHT CARD: STACK DISTRIBUTION ==================== -->
+    <g transform="translate(612, 0)">
+      <rect x="0.5" y="0.5" width="588" height="208" rx="16" fill="url(#cardBg)" stroke="url(#neonRim)" stroke-width="1.2"/>
+
+      <text x="28" y="38" fill="#94a3b8" font-size="11.5" font-weight="700" letter-spacing="1.5">STACK &amp; ARCHITECTURE DISTRIBUTION</text>
+
+      <!-- Segmented Bar -->
+      <g transform="translate(28, 54)">
+        <rect x="0"   y="0" width="232" height="8" rx="4" fill="#00e5ff"/>
+        <rect x="236" y="0" width="126" height="8" rx="2" fill="#8a3ffc"/>
+        <rect x="366" y="0" width="94"  height="8" rx="2" fill="#ff007f"/>
+        <rect x="464" y="0" width="68"  height="8" rx="4" fill="#10b981"/>
+      </g>
+
+      <!-- Stack Items -->
+      <g transform="translate(28, 86)" font-size="12.5">
+        <!-- Row 1 -->
+        <circle cx="6" cy="8" r="4.5" fill="#00e5ff"/>
+        <text x="20" y="12" fill="#f8fafc" font-weight="700">TypeScript / JavaScript</text>
+        <text x="216" y="12" fill="#00e5ff" font-weight="700">44%</text>
+        <text x="20" y="28" fill="#64748b" font-size="11">Web Platforms &amp; Cloudflare Edge</text>
+
+        <circle cx="286" cy="8" r="4.5" fill="#8a3ffc"/>
+        <text x="300" y="12" fill="#f8fafc" font-weight="700">HTML5 / CSS / Glass UI</text>
+        <text x="500" y="12" fill="#8a3ffc" font-weight="700">22%</text>
+        <text x="300" y="28" fill="#64748b" font-size="11">Modern UI &amp; WebGL 3D Studio</text>
+
+        <!-- Row 2 -->
+        <circle cx="6" cy="56" r="4.5" fill="#ff007f"/>
+        <text x="20" y="60" fill="#f8fafc" font-weight="700">Rust / C++ / Win32</text>
+        <text x="216" y="60" fill="#ff007f" font-weight="700">18%</text>
+        <text x="20" y="76" fill="#64748b" font-size="11">Tauri &amp; Native Desktop Systems</text>
+
+        <circle cx="286" cy="56" r="4.5" fill="#10b981"/>
+        <text x="300" y="60" fill="#f8fafc" font-weight="700">Java / Android</text>
+        <text x="500" y="60" fill="#10b981" font-weight="700">16%</text>
+        <text x="300" y="76" fill="#64748b" font-size="11">Native Android Client &amp; Live Sync</text>
+      </g>
+    </g>
+
+  </g>
+</svg>

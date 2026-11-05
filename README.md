@@ -1,11 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=7928CA,00DFD8,FF0080&height=220&section=header&text=KURFA%20CORE&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Architecting%20Native%20Systems%20%E2%80%A2%20Edge%20Cloud%20%E2%80%A2%20Modern%20UI&descSize=16&descAlignY=62&descAlign=50" width="100%" alt="Kurfa Core Header" />
+  <img src="./assets/hero-banner.svg" width="100%" alt="Kurfa Core Header" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/KurfaCore">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00DFD8&center=true&vCenter=true&multiline=true&width=700&height=100&lines=Ozan+Sars%C4%B1lmaz+%E2%80%94+Kurfa+Core;Systems+Architect+%26+Software+Engineer;Creator+of+Kurfa+Core+%26+KurfaNova+Ecosystem;Rust+%E2%80%A2+C%2B%2B+%E2%80%A2+Win32+DWM+%E2%80%A2+Cloudflare+Workers" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00DFD8&center=true&vCenter=true&width=700&height=45&lines=Ozan+Sars%C4%B1lmaz+%E2%80%94+Kurfa+Core;Systems+Architect+%26+Software+Engineer;Building+Edge+Platforms+%26+Native+Desktop;Creator+of+Kurfa+Core+%E2%80%A2+KurfaNova+%E2%80%A2+KurfaDPI;TypeScript+%E2%80%A2+Rust+%E2%80%A2+Win32+%E2%80%A2+Cloudflare+Workers" alt="Typing Animation" />
 </p>
 
 <p align="center">
@@ -15,11 +13,11 @@
   <a href="https://kurfanova.kurfa.workers.dev/">
     <img src="https://img.shields.io/badge/Music_Engine-KurfaNova-00DFD8?style=for-the-badge&logo=music&logoColor=000" alt="KurfaNova" />
   </a>
-  <a href="https://github.com/KurfaCore">
-    <img src="https://img.shields.io/badge/Contributions-1300%2B-FF0080?style=for-the-badge&logo=github&logoColor=white" alt="Contributions" />
+  <a href="https://kurfacore.github.io/">
+    <img src="https://img.shields.io/badge/Portal-GitHub.io-10b981?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages" />
   </a>
   <a href="https://www.instagram.com/5o.z.a.n6/">
-    <img src="https://img.shields.io/badge/Instagram-@5o.z.a.n6-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    <img src="https://img.shields.io/badge/Instagram-@5o.z.a.n6-FF0080?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </p>
 
@@ -68,7 +66,7 @@ Systems architect and software engineer engineering high-performance desktop sys
 ### 📊 GitHub Telemetry
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=KurfaCore&layout=compact&theme=tokyonight&hide_border=false&border_color=7928ca&bg_color=0d1117&title_color=00dfd8&text_color=c9d1d9" alt="Top Languages" />
+  <img src="./assets/telemetry.svg" width="100%" alt="GitHub Telemetry" />
 </p>
 
 ---
@@ -78,5 +76,5 @@ Systems architect and software engineer engineering high-performance desktop sys
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=7928CA,00DFD8,FF0080&height=90&section=footer" width="100%" alt="Footer Wave" />
+  <img src="./assets/footer-wave.svg" width="100%" alt="Footer Wave" />
 </p>

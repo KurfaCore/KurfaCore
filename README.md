@@ -1,117 +1,82 @@
 <p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Ozan Sarsılmaz — Kurfa Core" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=7928CA,00DFD8,FF0080&height=220&section=header&text=KURFA%20CORE&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Architecting%20Native%20Systems%20%E2%80%A2%20Edge%20Cloud%20%E2%80%A2%20Modern%20UI&descSize=16&descAlignY=62&descAlign=50" width="100%" alt="Kurfa Core Header" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/KurfaCore">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00DFD8&center=true&vCenter=true&multiline=true&width=700&height=100&lines=Ozan+Sars%C4%B1lmaz+%E2%80%94+Kurfa+Core;Systems+Architect+%26+Software+Engineer;Creator+of+Kurfa+Core+%26+KurfaNova+Ecosystem;Rust+%E2%80%A2+C%2B%2B+%E2%80%A2+Win32+DWM+%E2%80%A2+Cloudflare+Workers" alt="Typing SVG" />
+  </a>
 </p>
 
 <p align="center">
   <a href="https://kurfacore.5sarsilmaz6.workers.dev/">
-    <img src="https://img.shields.io/badge/OFFICIAL_PLATFORM-KURFA_CORE-0f172a?style=for-the-badge&logo=cloudflare&logoColor=38bdf8" alt="Kurfa Core Platform" />
+    <img src="https://img.shields.io/badge/Official_Platform-Kurfa_Core-7928CA?style=for-the-badge&logo=cloudflare-workers&logoColor=white" alt="Kurfa Core" />
   </a>
   <a href="https://kurfanova.kurfa.workers.dev/">
-    <img src="https://img.shields.io/badge/AUDIO_ENGINE-KURFANOVA-0f172a?style=for-the-badge&logo=applemusic&logoColor=38bdf8" alt="KurfaNova Music" />
+    <img src="https://img.shields.io/badge/Music_Engine-KurfaNova-00DFD8?style=for-the-badge&logo=music&logoColor=000" alt="KurfaNova" />
   </a>
-  <a href="https://kurfacore.github.io/">
-    <img src="https://img.shields.io/badge/PORTAL-GITHUB.IO-0f172a?style=for-the-badge&logo=github&logoColor=10b981" alt="GitHub Pages" />
+  <a href="https://github.com/KurfaCore">
+    <img src="https://img.shields.io/badge/Contributions-1300%2B-FF0080?style=for-the-badge&logo=github&logoColor=white" alt="Contributions" />
   </a>
   <a href="https://www.instagram.com/5o.z.a.n6/">
-    <img src="https://img.shields.io/badge/INSTAGRAM-@5O.Z.A.N6-0f172a?style=for-the-badge&logo=instagram&logoColor=e2e8f0" alt="Instagram" />
+    <img src="https://img.shields.io/badge/Instagram-@5o.z.a.n6-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&height=40&lines=Software+Engineer+%26+Systems+Architect;Building+Edge-First+Web+Platforms+%26+Media+Engines;Creator+of+Kurfa+Core+%E2%80%A2+KurfaNova+%E2%80%A2+KurfaDPI;TypeScript+%E2%80%A2+Rust+%E2%80%A2+Win32+%E2%80%A2+Cloudflare+Workers" alt="Typing Animation" />
-</p>
+---
 
-<br />
+### 🚀 About Me & Engineering Focus
 
-## ⚡ About Me & Engineering Philosophy
+Systems architect and software engineer engineering high-performance desktop systems (**Rust & Win32 DWM**), multi-node edge computing (**Cloudflare Workers**) architectures, and clean, high-contrast user interfaces.
 
-I'm **Ozan Sarsılmaz**, an independent software engineer and systems architect from Türkiye, engineering products under the **Kurfa Core** banner.
+* ⚡ **Systems & Native Desktop:** Windows DWM (Desktop Window Manager), DirectComposition transparency layers, and Tauri/Rust native system integrations.
+* 🌐 **Edge Computing & Cloud:** Redundant 3-node Cloudflare Workers cluster delivering high availability (HA), zero downtime, and edge routing.
+* 🎨 **Design Reflex & Quality:** Zero clutter, hardware-accelerated performance, responsive layout, and seamless user experiences.
 
-* 🌐 **Edge-First Cloud Architecture:** Designing resilient web applications distributed across redundant **Cloudflare Workers** edge nodes and global CDNs for sub-second response times and continuous availability.
-* 🎵 **Low-Latency Media Streaming:** Building **KurfaNova**, a zero-ad, high-fidelity audio engine featuring real-time playback synchronization between web browsers and native **Android** clients.
-* ⚡ **Systems & Native Desktop:** Engineering high-performance, low-memory tools with **Rust**, **C++**, and native **Windows Win32 / DWM** APIs.
-* 🛡️ **Zero-Clutter Quality Standard:** Prioritizing clean typography, hardware-accelerated rendering, and automated CI/CD pipelines verified with end-to-end test suites.
+---
 
-<br />
+### 🌟 Featured Projects & Ecosystem
 
-## 🚀 Featured Ecosystem & Projects
+| Project | Category | Description | Link |
+| :--- | :---: | :--- | :---: |
+| **Kurfa Core** | `Edge Architecture` | Central command & multi-node platform deployed across 3 redundant Cloudflare Workers. | [Live Node](https://kurfacore.5sarsilmaz6.workers.dev/) |
+| **KurfaNova** | `Web & Mobile` | Lightning-fast, ad-free music streaming platform with synchronized audio playback. | [Platform](https://kurfanova.kurfa.workers.dev/) |
+| **KurfaNova Android** | `Android App` | Native Android mobile application synchronized in real-time with the KurfaNova web player. | [Source Code](https://github.com/KurfaCore/kurfanova-app) |
+| **KurfaDPI** | `Networking / Win32` | Ultra-lightweight, high-performance packet routing and network optimization client for Windows. | `KurfaDPI Client` |
+| **KurfaCode** | `AI & Automation` | AI-assisted development, obfuscation pipeline, and automated multi-node cloud deployments. | [Source Code](https://github.com/KurfaCore/KurfaCode) |
+| **Automotive Studio** | `3D WebGL` | Interactive 3D presentation environment for German car brands, running directly in browser with zero build step. | [Source Code](https://github.com/KurfaCore/alman-otomotiv-studyosu) |
 
-### 🌐 [Kurfa Core Platform](https://kurfacore.5sarsilmaz6.workers.dev/)
-> **Central Command & Multi-Node Edge Infrastructure**  
-> High-availability edge architecture deployed across a redundant 3-node Cloudflare Workers cluster, providing unified service routing, edge computing, and automatic failover.  
-> `Cloudflare Workers` · `Vite` · `High-Availability CDN`  
-> ↳ [Open Live Platform ↗](https://kurfacore.5sarsilmaz6.workers.dev/)
+---
 
-<br />
-
-### 🎵 [KurfaNova Music](https://kurfanova.kurfa.workers.dev/)
-> **Ad-Free, High-Fidelity Audio Streaming Platform**  
-> Modern streaming audio engine engineered with the Web Audio API, delivering instant playback, custom frequency equalization, zero commercial interruptions, and ultra-low buffering latency.  
-> `Web Audio API` · `JavaScript` · `Real-Time Audio Engine`  
-> ↳ [Launch Player ↗](https://kurfanova.kurfa.workers.dev/) &nbsp;·&nbsp; [GitHub Repository ↗](https://github.com/KurfaCore/kurfanova)
-
-<br />
-
-### 📱 [KurfaNova for Android](https://github.com/KurfaCore/kurfanova-app)
-> **Synchronized Native Mobile Audio Client**  
-> Native Android application that keeps playback state, audio tracks, and user playback controls seamlessly synchronized in real-time with the web player.  
-> `Java` · `Android SDK` · `Real-Time State Sync`  
-> ↳ [Explore Repository &amp; APK ↗](https://github.com/KurfaCore/kurfanova-app)
-
-<br />
-
-### ⚡ [KurfaDPI Client](https://github.com/KurfaCore)
-> **High-Performance Win32 Network Utility**  
-> Lightweight native Windows client engineered for low-memory packet routing, network optimization, and DPI bypass.  
-> `Windows x64` · `Win32 C++` · `Low-Footprint`  
-> ↳ `Windows Native Desktop`
-
-<br />
-
-### 💻 [KurfaCode Studio](https://github.com/KurfaCore/KurfaCode)
-> **Autonomous Engineering & Multi-Node Deployment Workspace**  
-> Specialized development environment combining AI-assisted workflows, production obfuscation pipelines, and automated multi-node cloud deployments.  
-> `TypeScript` · `AI Workflows` · `Automated CI/CD`  
-> ↳ [View Repository ↗](https://github.com/KurfaCore/KurfaCode)
-
-<br />
-
-### 🏎️ [3D Automotive Studio](https://github.com/KurfaCore/alman-otomotiv-studyosu)
-> **Zero-Build Interactive WebGL Showcase**  
-> Interactive 3D presentation environment for German automotive brands, running client-side directly in the browser with zero build steps.  
-> `Three.js` · `WebGL 2.0` · `Zero-Build Architecture`  
-> ↳ [Explore Repository ↗](https://github.com/KurfaCore/alman-otomotiv-studyosu)
-
-<br />
-
-## 🛠️ Weapons of Choice & Tech Stack
+### 🛠️ Tech Arsenal
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,vite,html,css,tailwind,threejs,rust,tauri,cpp,java,androidstudio,cloudflare,nodejs,bun,git,powershell&perline=9" alt="Tech Stack" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=rust,cpp,windows,tauri,ts,react,tailwind,vite,nextjs,cloudflare,bun,nodejs,git,powershell,vscode&theme=dark" alt="Tech Arsenal" />
+  </a>
 </p>
+
+```text
+  Native & Systems   ::  Rust • C++ • Win32 API • Windows DWM • Tauri
+  Frontend & UI      ::  TypeScript • React • Tailwind CSS • Vite • Framer Motion
+  Edge & Cloud       ::  Cloudflare Workers (HA 3-Node) • Cloudflare Pages • GitHub Pages
+  Tools & Toolchain  ::  Git • PowerShell • Bun • Node.js • MSVC Build Tools
+```
+
+---
+
+### 📊 GitHub Telemetry
 
 <p align="center">
-  <code>TypeScript</code> &nbsp;·&nbsp; 
-  <code>JavaScript (ES2024)</code> &nbsp;·&nbsp; 
-  <code>React</code> &nbsp;·&nbsp; 
-  <code>Rust</code> &nbsp;·&nbsp; 
-  <code>Tauri</code> &nbsp;·&nbsp; 
-  <code>C++ / Win32</code> &nbsp;·&nbsp; 
-  <code>Java / Android</code> &nbsp;·&nbsp; 
-  <code>Cloudflare Edge</code> &nbsp;·&nbsp; 
-  <code>Three.js (WebGL)</code>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=KurfaCore&layout=compact&theme=tokyonight&hide_border=false&border_color=7928ca&bg_color=0d1117&title_color=00dfd8&text_color=c9d1d9" alt="Top Languages" />
 </p>
-
-<br />
 
 ---
 
 <p align="center">
-  <b>Kurfa Core</b> &nbsp;·&nbsp; Systems Architecture &amp; Engineering by <b>Ozan Sarsılmaz</b><br />
-  <sub>
-    <a href="https://kurfacore.5sarsilmaz6.workers.dev/">Official Website</a> &nbsp;·&nbsp;
-    <a href="https://kurfanova.kurfa.workers.dev/">KurfaNova Music</a> &nbsp;·&nbsp;
-    <a href="https://kurfacore.github.io/">GitHub Portal</a> &nbsp;·&nbsp;
-    <a href="https://www.instagram.com/5o.z.a.n6/">Instagram (@5o.z.a.n6)</a>
-  </sub>
+  <i>"Zero clutter, hardware-accelerated performance, and uncompromising aesthetic engineering."</i>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=7928CA,00DFD8,FF0080&height=90&section=footer" width="100%" alt="Footer Wave" />
 </p>

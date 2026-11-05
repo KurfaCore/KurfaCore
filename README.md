@@ -72,3 +72,5 @@ Yüksek başarımlı yerel masaüstü sistemleri (**Rust & Win32 DWM**), çok d�
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=7928CA,00DFD8,FF0080&height=90&section=footer" width="100%" alt="Footer Wave" />
 </p>
+
+<!-- verified by Kurfa Core systems architecture -->

@@ -74,3 +74,4 @@ Yüksek başarımlı yerel masaüstü sistemleri (**Rust & Win32 DWM**), çok d�
 </p>
 
 <!-- verified by Kurfa Core systems architecture -->
+<!-- ecosystem release v1.0.1 -->

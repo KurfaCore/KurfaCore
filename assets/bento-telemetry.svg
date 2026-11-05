@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="430" viewBox="0 0 1280 430" role="img" aria-label="Kurfa Core — Sistem Telemetrisi ve Mimari Özeti">
+  <defs>
+    <linearGradient id="bentoBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0d17"/>
+      <stop offset="100%" stop-color="#101322"/>
+    </linearGradient>
+
+    <linearGradient id="cardRim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#8a5cff" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0.12"/>
+    </linearGradient>
+
+    <linearGradient id="barGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#6d4aff" stop-opacity="0.28"/>
+    </linearGradient>
+  </defs>
+
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', sans-serif">
+
+    <!-- ==================== CARD 1: CONTRIBUTION & VELOCITY (TOP-LEFT) ==================== -->
+    <g transform="translate(0, 0)">
+      <rect x="0.5" y="0.5" width="627" height="203" rx="18" fill="url(#bentoBg)" stroke="url(#cardRim)" stroke-width="1.2"/>
+
+      <text x="28" y="36" fill="#8b95b0" font-size="11.5" font-weight="700" letter-spacing="1.8">GELİŞTİRME AKTİVİTESİ &amp; KATKI TELEMETRİSİ</text>
+      <circle cx="596" cy="32" r="4.5" fill="#00e5ff">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Big Stat 1 -->
+      <text x="28" y="88" fill="#ffffff" font-size="44" font-weight="800" letter-spacing="-1">1,348+</text>
+      <text x="28" y="112" fill="#00e5ff" font-size="13" font-weight="600">Yıllık Kod Katkısı (Son 12 Ay)</text>
+
+      <!-- Sub Stats -->
+      <rect x="28" y="130" width="136" height="48" rx="10" fill="#131729" stroke="#232a45"/>
+      <text x="42" y="150" fill="#ffffff" font-size="15" font-weight="800">12+ Depo</text>
+      <text x="42" y="167" fill="#7c859e" font-size="11">Açık &amp; Özel Projeler</text>
+
+      <rect x="176" y="130" width="142" height="48" rx="10" fill="#131729" stroke="#232a45"/>
+      <text x="190" y="150" fill="#a78bfa" font-size="15" font-weight="800">Aktif Üretim</text>
+      <text x="190" y="167" fill="#7c859e" font-size="11">Sürekli Entegrasyon</text>
+
+      <!-- Activity Bar Chart (Right Side of Card 1) -->
+      <g transform="translate(336, 56)">
+        <rect x="0" y="0" width="264" height="122" rx="12" fill="#0d101d" stroke="#1e243d"/>
+        <text x="16" y="22" fill="#94a3b8" font-size="11" font-weight="600">Aylık Commit Yoğunluğu</text>
+        <text x="248" y="22" fill="#10b981" font-size="10.5" font-weight="700" text-anchor="end">YÜKSEK İVME</text>
+
+        <!-- 12 Bars nicely spaced -->
+        <g transform="translate(16, 34)">
+          <rect x="0"   y="52" width="13" height="18" rx="3" fill="url(#barGrad)" opacity="0.45"/>
+          <rect x="20"  y="46" width="13" height="24" rx="3" fill="url(#barGrad)" opacity="0.5"/>
+          <rect x="40"  y="50" width="13" height="20" rx="3" fill="url(#barGrad)" opacity="0.5"/>
+          <rect x="60"  y="40" width="13" height="30" rx="3" fill="url(#barGrad)" opacity="0.6"/>
+          <rect x="80"  y="32" width="13" height="38" rx="3" fill="url(#barGrad)" opacity="0.7"/>
+          <rect x="100" y="24" width="13" height="46" rx="3" fill="url(#barGrad)" opacity="0.75"/>
+          <rect x="120" y="16" width="13" height="54" rx="3" fill="url(#barGrad)" opacity="0.85"/>
+          <rect x="140" y="10" width="13" height="60" rx="3" fill="url(#barGrad)" opacity="0.9"/>
+          <rect x="160" y="4"  width="13" height="66" rx="3" fill="url(#barGrad)"/>
+          <rect x="180" y="12" width="13" height="58" rx="3" fill="url(#barGrad)" opacity="0.92"/>
+          <rect x="200" y="6"  width="13" height="64" rx="3" fill="url(#barGrad)"/>
+          <rect x="220" y="0"  width="13" height="70" rx="3" fill="#00e5ff"/>
+        </g>
+        <text x="132" y="115" fill="#64748b" font-size="9.5" text-anchor="middle">Ara · Oca · Şub · Mar · Nis · May · Haz · Tem · Ağu · Eyl · Eki · Kas</text>
+      </g>
+    </g>
+
+    <!-- ==================== CARD 2: LANGUAGE & STACK DISTRIBUTION (TOP-RIGHT) ==================== -->
+    <g transform="translate(652, 0)">
+      <rect x="0.5" y="0.5" width="627" height="203" rx="18" fill="url(#bentoBg)" stroke="url(#cardRim)" stroke-width="1.2"/>
+
+      <text x="28" y="36" fill="#8b95b0" font-size="11.5" font-weight="700" letter-spacing="1.8">DİL VE TEKNOLOJİ DAĞILIMI (STACK TELEMETRY)</text>
+
+      <!-- Segmented Progress Bar -->
+      <g transform="translate(28, 52)">
+        <rect x="0"   y="0" width="248" height="10" rx="4" fill="#00e5ff"/>
+        <rect x="252" y="0" width="124" height="10" rx="2" fill="#8a5cff"/>
+        <rect x="380" y="0" width="92"  height="10" rx="2" fill="#ff6b4a"/>
+        <rect x="476" y="0" width="62"  height="10" rx="2" fill="#34d399"/>
+        <rect x="542" y="0" width="30"  height="10" rx="4" fill="#ff2ea6"/>
+      </g>
+
+      <!-- Stack Items Grid (2 Columns) -->
+      <g transform="translate(28, 84)" font-size="12.5">
+        <!-- Row 1 Left -->
+        <circle cx="6" cy="8" r="5" fill="#00e5ff"/>
+        <text x="20" y="12" fill="#f1f5f9" font-weight="700">JavaScript / TypeScript</text>
+        <text x="232" y="12" fill="#00e5ff" font-weight="700">44%</text>
+        <text x="20" y="28" fill="#64748b" font-size="11">Web Platformları &amp; Edge Servisleri</text>
+
+        <!-- Row 1 Right -->
+        <circle cx="306" cy="8" r="5" fill="#8a5cff"/>
+        <text x="320" y="12" fill="#f1f5f9" font-weight="700">HTML5 / CSS3 / Glass UI</text>
+        <text x="536" y="12" fill="#a78bfa" font-weight="700">22%</text>
+        <text x="320" y="28" fill="#64748b" font-size="11">Modern Arayüz &amp; Tasarım Mimarisi</text>
+
+        <!-- Row 2 Left -->
+        <circle cx="6" cy="56" r="5" fill="#ff6b4a"/>
+        <text x="20" y="60" fill="#f1f5f9" font-weight="700">Rust / C++ / Win32</text>
+        <text x="232" y="60" fill="#ff6b4a" font-weight="700">16%</text>
+        <text x="20" y="76" fill="#64748b" font-size="11">Tauri &amp; Windows Masaüstü Araçları</text>
+
+        <!-- Row 2 Right -->
+        <circle cx="306" cy="56" r="5" fill="#34d399"/>
+        <text x="320" y="60" fill="#f1f5f9" font-weight="700">Java / Android &amp; Otomasyon</text>
+        <text x="536" y="60" fill="#34d399" font-weight="700">18%</text>
+        <text x="320" y="76" fill="#64748b" font-size="11">Android APK &amp; Dağıtım Scriptleri</text>
+      </g>
+    </g>
+
+    <!-- ==================== CARD 3: MULTI-NODE CLOUD ARCHITECTURE (BOTTOM-LEFT) ==================== -->
+    <g transform="translate(0, 226)">
+      <rect x="0.5" y="0.5" width="627" height="203" rx="18" fill="url(#bentoBg)" stroke="url(#cardRim)" stroke-width="1.2"/>
+
+      <text x="28" y="36" fill="#8b95b0" font-size="11.5" font-weight="700" letter-spacing="1.8">ÇOK DÜĞÜMLÜ BULUT &amp; YÜKSEK ERİŞİLEBİLİRLİK (HA EDGE)</text>
+
+      <!-- 2x2 Node Cards inside Card 3 -->
+      <g transform="translate(28, 52)">
+        <!-- Node 1 -->
+        <rect x="0" y="0" width="278" height="58" rx="10" fill="#121627" stroke="#242b47"/>
+        <circle cx="18" cy="22" r="4.5" fill="#10b981"/>
+        <text x="30" y="26" fill="#ffffff" font-size="12.5" font-weight="700">Node 1 · Ana Sunucu</text>
+        <text x="218" y="25" fill="#10b981" font-size="10.5" font-weight="700">PRIMARY</text>
+        <text x="30" y="44" fill="#7c859e" font-size="11">kurfacore.5sarsilmaz6.workers.dev</text>
+
+        <!-- Node 2 -->
+        <rect x="294" y="0" width="278" height="58" rx="10" fill="#121627" stroke="#242b47"/>
+        <circle cx="312" cy="22" r="4.5" fill="#10b981"/>
+        <text x="324" y="26" fill="#ffffff" font-size="12.5" font-weight="700">Node 2 · Yedek Düğüm 1</text>
+        <text x="510" y="25" fill="#00e5ff" font-size="10.5" font-weight="700">REPLICA</text>
+        <text x="324" y="44" fill="#7c859e" font-size="11">kurfacore.yedek1.workers.dev</text>
+
+        <!-- Node 3 -->
+        <rect x="0" y="68" width="278" height="58" rx="10" fill="#121627" stroke="#242b47"/>
+        <circle cx="18" cy="90" r="4.5" fill="#10b981"/>
+        <text x="30" y="94" fill="#ffffff" font-size="12.5" font-weight="700">Node 3 · Yedek Düğüm 2</text>
+        <text x="216" y="93" fill="#00e5ff" font-size="10.5" font-weight="700">REPLICA</text>
+        <text x="30" y="112" fill="#7c859e" font-size="11">kurfacore.yedek2.workers.dev</text>
+
+        <!-- Node 4 -->
+        <rect x="294" y="68" width="278" height="58" rx="10" fill="#121627" stroke="#242b47"/>
+        <circle cx="312" cy="90" r="4.5" fill="#a78bfa"/>
+        <text x="324" y="94" fill="#ffffff" font-size="12.5" font-weight="700">KurfaNova · Medya Motoru</text>
+        <text x="514" y="93" fill="#a78bfa" font-size="10.5" font-weight="700">STREAM</text>
+        <text x="324" y="112" fill="#7c859e" font-size="11">kurfanova.kurfa.workers.dev</text>
+      </g>
+    </g>
+
+    <!-- ==================== CARD 4: ENGINEERING STANDARDS (BOTTOM-RIGHT) ==================== -->
+    <g transform="translate(652, 226)">
+      <rect x="0.5" y="0.5" width="627" height="203" rx="18" fill="url(#bentoBg)" stroke="url(#cardRim)" stroke-width="1.2"/>
+
+      <text x="28" y="36" fill="#8b95b0" font-size="11.5" font-weight="700" letter-spacing="1.8">MÜHENDİSLİK İLKELERİ &amp; ÜRETİM STANDARTLARI</text>
+
+      <g transform="translate(28, 52)">
+        <!-- Standard 1 -->
+        <rect x="0" y="0" width="278" height="58" rx="10" fill="#121627" stroke="#242b47"/>
+        <text x="16" y="24" fill="#00e5ff" font-size="12.5" font-weight="700">✦ Apple Glassmorphism UI</text>
+        <text x="16" y="43" fill="#8b95b0" font-size="11">Frosted glass, specular rim &amp; sıfır karmaşa</text>
+
+        <!-- Standard 2 -->
+        <rect x="294" y="0" width="278" height="58" rx="10" fill="#121627" stroke="#242b47"/>
+        <text x="310" y="24" fill="#a78bfa" font-size="12.5" font-weight="700">⚡ Uçtan Uca Otomasyon</text>
+        <text x="310" y="43" fill="#8b95b0" font-size="11">Vite build + JS Obfuscation &amp; çoklu dağıtım</text>
+
+        <!-- Standard 3 -->
+        <rect x="0" y="68" width="278" height="58" rx="10" fill="#121627" stroke="#242b47"/>
+        <text x="16" y="92" fill="#34d399" font-size="12.5" font-weight="700">✔ 30/30 Test Doğrulaması</text>
+        <text x="16" y="111" fill="#8b95b0" font-size="11">Her yayın öncesi tam otomatik test kontrolü</text>
+
+        <!-- Standard 4 -->
+        <rect x="294" y="68" width="278" height="58" rx="10" fill="#121627" stroke="#242b47"/>
+        <text x="310" y="92" fill="#f472b6" font-size="12.5" font-weight="700">🌐 Çapraz Platform Senkron</text>
+        <text x="310" y="111" fill="#8b95b0" font-size="11">Web, Android APK ve Masaüstü entegrasyonu</text>
+      </g>
+    </g>
+
+  </g>
+</svg>

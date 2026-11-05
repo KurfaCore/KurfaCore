@@ -1,97 +1,171 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Ozan Sarsılmaz — Kurfa Core">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="Ozan Sarsılmaz — Kurfa Core">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#07080f"/>
-      <stop offset="0.6" stop-color="#0d0f1c"/>
-      <stop offset="1" stop-color="#150d2b"/>
+      <stop offset="0%" stop-color="#06070c"/>
+      <stop offset="50%" stop-color="#0b0d17"/>
+      <stop offset="100%" stop-color="#110e20"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#00e5ff">
-        <animate attributeName="stop-color" values="#00e5ff;#6a5cff;#ff2ea6;#00e5ff" dur="9s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="1" stop-color="#ff2ea6">
-        <animate attributeName="stop-color" values="#ff2ea6;#00e5ff;#6a5cff;#ff2ea6" dur="9s" repeatCount="indefinite"/>
-      </stop>
+
+    <radialGradient id="aurora1" cx="0.2" cy="0.15" r="0.55">
+      <stop offset="0%" stop-color="#6d4aff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#6d4aff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="aurora2" cx="0.82" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="aurora3" cx="0.65" cy="0.9" r="0.45">
+      <stop offset="0%" stop-color="#ff2ea6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ff2ea6" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="50%" stop-color="#8a5cff"/>
+      <stop offset="100%" stop-color="#ff2ea6"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#8a5cff"/>
-      <stop offset="1" stop-color="#ff2ea6" stop-opacity="0"/>
+
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#16192b" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#0d0f1a" stop-opacity="0.92"/>
     </linearGradient>
-    <radialGradient id="o1"><stop offset="0" stop-color="#6a5cff" stop-opacity="0.55"/><stop offset="1" stop-color="#6a5cff" stop-opacity="0"/></radialGradient>
-    <radialGradient id="o2"><stop offset="0" stop-color="#00e5ff" stop-opacity="0.40"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></radialGradient>
-    <radialGradient id="o3"><stop offset="0" stop-color="#ff2ea6" stop-opacity="0.40"/><stop offset="1" stop-color="#ff2ea6" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#fff" stroke-opacity="0.04"/>
+
+    <linearGradient id="rimLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#8a5cff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0.12"/>
+    </linearGradient>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
     </pattern>
-    <clipPath id="card"><rect width="1280" height="340" rx="24"/></clipPath>
-    <filter id="blur"><feGaussianBlur stdDeviation="2"/></filter>
+
+    <clipPath id="outerClip">
+      <rect width="1280" height="360" rx="22"/>
+    </clipPath>
   </defs>
 
-  <g clip-path="url(#card)">
-    <rect width="1280" height="340" fill="url(#bg)"/>
-    <rect width="1280" height="340" fill="url(#grid)"/>
+  <g clip-path="url(#outerClip)">
+    <!-- Base Background -->
+    <rect width="1280" height="360" fill="url(#bg)"/>
+    <rect width="1280" height="360" fill="url(#grid)"/>
 
-    <!-- floating glow orbs -->
-    <circle r="260" fill="url(#o1)" cx="1000" cy="90">
-      <animateTransform attributeName="transform" type="translate" values="0 0; -90 50; 40 -20; 0 0" dur="14s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="220" fill="url(#o2)" cx="1180" cy="300">
-      <animateTransform attributeName="transform" type="translate" values="0 0; -120 -30; 30 -50; 0 0" dur="11s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="230" fill="url(#o3)" cx="760" cy="330">
-      <animateTransform attributeName="transform" type="translate" values="0 0; 80 -40; -60 -10; 0 0" dur="16s" repeatCount="indefinite"/>
-    </circle>
+    <!-- Animated Aurora Glows -->
+    <rect width="1280" height="360" fill="url(#aurora1)"/>
+    <rect width="1280" height="360" fill="url(#aurora2)"/>
+    <rect width="1280" height="360" fill="url(#aurora3)"/>
 
-    <!-- floating particles -->
-    <g fill="#fff">
-      <circle cx="560" cy="60" r="1.6" opacity="0.5"><animate attributeName="cy" values="60;40;60" dur="5s" repeatCount="indefinite"/></circle>
-      <circle cx="700" cy="270" r="1.8" opacity="0.4"><animate attributeName="cy" values="270;245;270" dur="6s" repeatCount="indefinite"/></circle>
-      <circle cx="880" cy="50" r="1.4" opacity="0.5"><animate attributeName="cy" values="50;70;50" dur="7s" repeatCount="indefinite"/></circle>
-      <circle cx="470" cy="290" r="1.5" opacity="0.35"><animate attributeName="cy" values="290;270;290" dur="8s" repeatCount="indefinite"/></circle>
-      <circle cx="1120" cy="170" r="1.7" opacity="0.45"><animate attributeName="cy" values="170;150;170" dur="6.5s" repeatCount="indefinite"/></circle>
+    <!-- Top Specular Line -->
+    <rect x="60" y="0" width="1160" height="1.5" fill="url(#brandGrad)" opacity="0.6"/>
+
+    <!-- LEFT COLUMN: Identity & Value Proposition -->
+    <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', sans-serif">
+      <!-- Status Pill -->
+      <rect x="64" y="44" width="336" height="30" rx="15" fill="#151929" stroke="#2a314d" stroke-width="1"/>
+      <circle cx="84" cy="59" r="4.5" fill="#10b981">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="98" y="64" fill="#c3cbe0" font-size="11.5" font-weight="700" letter-spacing="2">KURFA CORE · SİSTEM MİMARİSİ</text>
+
+      <!-- Main Name -->
+      <text x="62" y="138" fill="#ffffff" font-size="60" font-weight="800" letter-spacing="-1.5">Ozan Sarsılmaz</text>
+
+      <!-- Animated Gradient Divider -->
+      <rect x="64" y="158" width="420" height="3" rx="1.5" fill="url(#brandGrad)"/>
+
+      <!-- Subtitle Fixed + Dynamic Role -->
+      <text x="64" y="196" fill="#d5dcf0" font-size="20" font-weight="600">Full-Stack Platformlar · Bulut Edge Mimarisi · Masaüstü &amp; Mobil</text>
+      <text x="64" y="226" fill="#8b95b0" font-size="15.5" font-weight="400">Yüksek erişilebilirlikli web servisleri, reklamsız medya platformları ve yerel sistem araçları.</text>
+
+      <!-- Metric Pills Row -->
+      <g transform="translate(64, 266)">
+        <!-- Pill 1 -->
+        <rect x="0" y="0" width="162" height="46" rx="12" fill="#121524" stroke="#252b45" stroke-width="1"/>
+        <text x="16" y="20" fill="#00e5ff" font-size="14" font-weight="800">1,348+ Katkı</text>
+        <text x="16" y="36" fill="#7c859e" font-size="11" font-weight="500">Son 1 Yıl Aktivitesi</text>
+
+        <!-- Pill 2 -->
+        <rect x="174" y="0" width="166" height="46" rx="12" fill="#121524" stroke="#252b45" stroke-width="1"/>
+        <text x="190" y="20" fill="#a78bfa" font-size="14" font-weight="800">3 Edge Düğümü</text>
+        <text x="190" y="36" fill="#7c859e" font-size="11" font-weight="500">Cloudflare HA Cluster</text>
+
+        <!-- Pill 3 -->
+        <rect x="352" y="0" width="156" height="46" rx="12" fill="#121524" stroke="#252b45" stroke-width="1"/>
+        <text x="368" y="20" fill="#f472b6" font-size="14" font-weight="800">5+ Canlı Ürün</text>
+        <text x="368" y="36" fill="#7c859e" font-size="11" font-weight="500">Web · Android · Win32</text>
+
+        <!-- Pill 4 -->
+        <rect x="520" y="0" width="144" height="46" rx="12" fill="#121524" stroke="#252b45" stroke-width="1"/>
+        <text x="536" y="20" fill="#34d399" font-size="14" font-weight="800">%99.98 Aktif</text>
+        <text x="536" y="36" fill="#7c859e" font-size="11" font-weight="500">Kesintisiz Dağıtım</text>
+      </g>
     </g>
 
-    <!-- K mark -->
-    <g transform="translate(985 78)">
-      <g>
-        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -9; 0 0" dur="5s" repeatCount="indefinite"/>
-        <g filter="url(#blur)" opacity="0.55">
-          <path d="M0 0 L38 0 L38 184 L0 184 Z" fill="url(#accent)"/>
-          <path d="M50 92 L138 0 L186 0 L92 100 Z" fill="url(#accent)"/>
-          <path d="M72 106 L110 76 L196 184 L146 184 Z" fill="url(#accent)"/>
+    <!-- RIGHT COLUMN: Glassmorphic Command Center Terminal HUD -->
+    <g transform="translate(776, 38)">
+      <!-- Card Body -->
+      <rect width="452" height="284" rx="16" fill="url(#cardBg)" stroke="url(#rimLight)" stroke-width="1.2"/>
+
+      <!-- Window Header Bar -->
+      <path d="M 0 16 Q 0 0 16 0 L 436 0 Q 452 0 452 16 L 452 38 L 0 38 Z" fill="#1b2036" opacity="0.85"/>
+      <line x1="0" y1="38" x2="452" y2="38" stroke="#ffffff" stroke-opacity="0.08"/>
+
+      <!-- Window Controls -->
+      <circle cx="20" cy="19" r="5.5" fill="#ff5f56"/>
+      <circle cx="38" cy="19" r="5.5" fill="#ffbd2e"/>
+      <circle cx="56" cy="19" r="5.5" fill="#27c93f"/>
+      <text x="226" y="23" fill="#8b95b0" font-family="'Consolas', 'Courier New', monospace" font-size="11.5" font-weight="600" text-anchor="middle">kurfa-core://telemetry-hud</text>
+
+      <!-- Terminal Content -->
+      <g font-family="'Consolas', 'Courier New', monospace" font-size="12.5">
+        <text x="22" y="66" fill="#00e5ff" font-weight="700">$ kurfa status --cluster --live</text>
+
+        <text x="22" y="92" fill="#94a3b8">[CLUSTER]</text>
+        <text x="102" y="92" fill="#e2e8f0">Multi-Node Edge Architecture</text>
+
+        <!-- Node Status Rows -->
+        <rect x="22" y="106" width="408" height="28" rx="6" fill="#101322" stroke="#222942"/>
+        <circle cx="36" cy="120" r="4" fill="#10b981"/>
+        <text x="48" y="124" fill="#f1f5f9" font-size="11.5">node-01.primary</text>
+        <text x="182" y="124" fill="#64748b" font-size="11">workers.dev</text>
+        <text x="366" y="124" fill="#10b981" font-size="11" font-weight="700">ONLINE</text>
+
+        <rect x="22" y="140" width="408" height="28" rx="6" fill="#101322" stroke="#222942"/>
+        <circle cx="36" cy="154" r="4" fill="#10b981"/>
+        <text x="48" y="158" fill="#f1f5f9" font-size="11.5">node-02.failover</text>
+        <text x="182" y="158" fill="#64748b" font-size="11">yedek1.edge</text>
+        <text x="366" y="158" fill="#10b981" font-size="11" font-weight="700">SYNCED</text>
+
+        <rect x="22" y="174" width="408" height="28" rx="6" fill="#101322" stroke="#222942"/>
+        <circle cx="36" cy="188" r="4" fill="#00e5ff"/>
+        <text x="48" y="192" fill="#f1f5f9" font-size="11.5">kurfanova.stream</text>
+        <text x="182" y="192" fill="#64748b" font-size="11">web + android</text>
+        <text x="366" y="192" fill="#00e5ff" font-size="11" font-weight="700">ACTIVE</text>
+
+        <!-- Bottom Animated Telemetry Bar -->
+        <text x="22" y="226" fill="#8b95b0" font-size="11">BUILD PIPELINE: 30/30 TESTS PASSED · ZERO ERRORS</text>
+
+        <!-- Animated Equalizer / Load Bars -->
+        <g transform="translate(22, 238)">
+          <rect x="0" y="0" width="408" height="26" rx="6" fill="#0c0e1a" stroke="#1e243b"/>
+          <g fill="url(#brandGrad)">
+            <rect x="10" y="6" width="6" height="14" rx="2"><animate attributeName="height" values="6;16;8;14;6" dur="1.8s" repeatCount="indefinite"/><animate attributeName="y" values="14;4;12;6;14" dur="1.8s" repeatCount="indefinite"/></rect>
+            <rect x="22" y="4" width="6" height="16" rx="2"><animate attributeName="height" values="16;8;18;10;16" dur="1.5s" repeatCount="indefinite"/><animate attributeName="y" values="4;12;2;10;4" dur="1.5s" repeatCount="indefinite"/></rect>
+            <rect x="34" y="8" width="6" height="12" rx="2"><animate attributeName="height" values="10;18;6;14;10" dur="2.1s" repeatCount="indefinite"/><animate attributeName="y" values="10;2;14;6;10" dur="2.1s" repeatCount="indefinite"/></rect>
+            <rect x="46" y="5" width="6" height="15" rx="2"><animate attributeName="height" values="14;6;16;12;14" dur="1.7s" repeatCount="indefinite"/><animate attributeName="y" values="6;14;4;8;6" dur="1.7s" repeatCount="indefinite"/></rect>
+            <rect x="58" y="7" width="6" height="13" rx="2"><animate attributeName="height" values="8;16;10;18;8" dur="1.9s" repeatCount="indefinite"/><animate attributeName="y" values="12;4;10;2;12" dur="1.9s" repeatCount="indefinite"/></rect>
+            <rect x="70" y="4" width="6" height="16" rx="2"><animate attributeName="height" values="18;10;14;6;18" dur="1.6s" repeatCount="indefinite"/><animate attributeName="y" values="2;10;6;14;2" dur="1.6s" repeatCount="indefinite"/></rect>
+            <rect x="82" y="9" width="6" height="11" rx="2"><animate attributeName="height" values="10;16;8;14;10" dur="2.0s" repeatCount="indefinite"/><animate attributeName="y" values="10;4;12;6;10" dur="2.0s" repeatCount="indefinite"/></rect>
+            <rect x="94" y="5" width="6" height="15" rx="2"><animate attributeName="height" values="14;8;18;10;14" dur="1.4s" repeatCount="indefinite"/><animate attributeName="y" values="6;12;2;10;6" dur="1.4s" repeatCount="indefinite"/></rect>
+          </g>
+          <text x="116" y="17" fill="#cbd5e1" font-size="11" font-weight="600">Edge Load: 14ms RTT · TLS 1.3 · Glass UI</text>
         </g>
-        <path d="M0 0 L38 0 L38 184 L0 184 Z" fill="url(#accent)"/>
-        <path d="M50 92 L138 0 L186 0 L92 100 Z" fill="url(#accent)" opacity="0.88"/>
-        <path d="M72 106 L110 76 L196 184 L146 184 Z" fill="url(#accent)" opacity="0.7"/>
       </g>
     </g>
   </g>
 
-  <rect x="0.5" y="0.5" width="1279" height="339" rx="24" fill="none" stroke="#fff" stroke-opacity="0.1"/>
-
-  <g font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif">
-    <text x="76" y="92" fill="#7f8aa8" font-size="16" font-weight="700" letter-spacing="6">KURFA CORE</text>
-    <text x="74" y="170" fill="#ffffff" font-size="68" font-weight="800" letter-spacing="-1.5">Ozan Sarsılmaz</text>
-    <rect x="76" y="194" width="360" height="3" rx="1.5" fill="url(#line)"/>
-
-    <!-- rotating taglines -->
-    <g font-size="25" font-weight="500" fill="#c4cbe0">
-      <text x="76" y="246" opacity="0">Rust ile hızlı masaüstü araçları
-        <animate attributeName="opacity" values="0;1;1;0;0;0;0;0;0" keyTimes="0;0.04;0.22;0.26;0.5;0.75;0.9;0.98;1" dur="12s" repeatCount="indefinite"/></text>
-      <text x="76" y="246" opacity="0">Cloudflare Workers üzerinde web platformları
-        <animate attributeName="opacity" values="0;0;0;1;1;0;0;0;0" keyTimes="0;0.24;0.28;0.30;0.47;0.51;0.75;0.98;1" dur="12s" repeatCount="indefinite"/></text>
-      <text x="76" y="246" opacity="0">KurfaNova — reklamsız müzik deneyimi
-        <animate attributeName="opacity" values="0;0;0;0;0;1;1;0;0" keyTimes="0;0.49;0.5;0.52;0.54;0.55;0.72;0.76;1" dur="12s" repeatCount="indefinite"/></text>
-      <text x="76" y="246" opacity="0">Fikirden yayına, tek başıma
-        <animate attributeName="opacity" values="0;0;0;0;0;1;1;0" keyTimes="0;0.74;0.75;0.76;0.77;0.80;0.96;1" dur="12s" repeatCount="indefinite"/></text>
-    </g>
-
-    <g font-size="14" font-weight="600" fill="#00e5ff" letter-spacing="1">
-      <circle cx="82" cy="296" r="4.5" fill="#34d399">
-        <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <text x="96" y="301" fill="#8b93ad" letter-spacing="1.5">YENİ ÜRÜNLER ÜZERİNDE ÇALIŞIYOR</text>
-    </g>
-  </g>
+  <!-- Outer Border -->
+  <rect x="0.5" y="0.5" width="1279" height="359" rx="22" fill="none" stroke="url(#rimLight)" stroke-width="1"/>
 </svg>

@@ -1,171 +1,136 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="Ozan Sarsılmaz — Kurfa Core">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Ozan Sarsılmaz — Kurfa Core">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#06070c"/>
-      <stop offset="50%" stop-color="#0b0d17"/>
-      <stop offset="100%" stop-color="#110e20"/>
+    <!-- Deep Space Obsidian Gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080a0f"/>
+      <stop offset="60%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#0e1322"/>
     </linearGradient>
 
-    <radialGradient id="aurora1" cx="0.2" cy="0.15" r="0.55">
-      <stop offset="0%" stop-color="#6d4aff" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#6d4aff" stop-opacity="0"/>
+    <!-- Clean Tech Accent (Electric Blue & Silver) -->
+    <linearGradient id="blueGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+
+    <linearGradient id="laserLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="75%" stop-color="#3b82f6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Subtle Radial Glow -->
+    <radialGradient id="ambientBlue" cx="0.85" cy="0.4" r="0.6">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0"/>
     </radialGradient>
 
-    <radialGradient id="aurora2" cx="0.82" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
-    </radialGradient>
-
-    <radialGradient id="aurora3" cx="0.65" cy="0.9" r="0.45">
-      <stop offset="0%" stop-color="#ff2ea6" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#ff2ea6" stop-opacity="0"/>
-    </radialGradient>
-
-    <linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00e5ff"/>
-      <stop offset="50%" stop-color="#8a5cff"/>
-      <stop offset="100%" stop-color="#ff2ea6"/>
-    </linearGradient>
-
-    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#16192b" stop-opacity="0.88"/>
-      <stop offset="100%" stop-color="#0d0f1a" stop-opacity="0.92"/>
-    </linearGradient>
-
-    <linearGradient id="rimLight" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2"/>
-      <stop offset="50%" stop-color="#8a5cff" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0.12"/>
-    </linearGradient>
-
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+    <!-- Minimal Dot Grid -->
+    <pattern id="dotGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.05"/>
     </pattern>
 
-    <clipPath id="outerClip">
-      <rect width="1280" height="360" rx="22"/>
+    <clipPath id="roundedFrame">
+      <rect width="1280" height="340" rx="20"/>
     </clipPath>
   </defs>
 
-  <g clip-path="url(#outerClip)">
-    <!-- Base Background -->
-    <rect width="1280" height="360" fill="url(#bg)"/>
-    <rect width="1280" height="360" fill="url(#grid)"/>
+  <g clip-path="url(#roundedFrame)">
+    <rect width="1280" height="340" fill="url(#bgGrad)"/>
+    <rect width="1280" height="340" fill="url(#dotGrid)"/>
+    <rect width="1280" height="340" fill="url(#ambientBlue)"/>
 
-    <!-- Animated Aurora Glows -->
-    <rect width="1280" height="360" fill="url(#aurora1)"/>
-    <rect width="1280" height="360" fill="url(#aurora2)"/>
-    <rect width="1280" height="360" fill="url(#aurora3)"/>
+    <!-- Top Laser Accent -->
+    <rect x="0" y="0" width="1280" height="2" fill="url(#laserLine)"/>
 
-    <!-- Top Specular Line -->
-    <rect x="60" y="0" width="1160" height="1.5" fill="url(#brandGrad)" opacity="0.6"/>
-
-    <!-- LEFT COLUMN: Identity & Value Proposition -->
-    <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', sans-serif">
-      <!-- Status Pill -->
-      <rect x="64" y="44" width="336" height="30" rx="15" fill="#151929" stroke="#2a314d" stroke-width="1"/>
-      <circle cx="84" cy="59" r="4.5" fill="#10b981">
-        <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/>
-      </circle>
-      <text x="98" y="64" fill="#c3cbe0" font-size="11.5" font-weight="700" letter-spacing="2">KURFA CORE · SİSTEM MİMARİSİ</text>
+    <!-- LEFT COLUMN: Identity & Bio -->
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Helvetica, Arial, sans-serif">
+      <!-- Status Badge -->
+      <g transform="translate(68, 48)">
+        <rect width="280" height="30" rx="15" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#10b981">
+          <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <text x="30" y="20" fill="#94a3b8" font-size="11" font-weight="700" letter-spacing="1.5">KURFA CORE ARCHITECTURE</text>
+      </g>
 
       <!-- Main Name -->
-      <text x="62" y="138" fill="#ffffff" font-size="60" font-weight="800" letter-spacing="-1.5">Ozan Sarsılmaz</text>
+      <text x="66" y="136" fill="#f8fafc" font-size="58" font-weight="800" letter-spacing="-1">Ozan Sarsılmaz</text>
 
-      <!-- Animated Gradient Divider -->
-      <rect x="64" y="158" width="420" height="3" rx="1.5" fill="url(#brandGrad)"/>
+      <!-- Subtle Accent Line -->
+      <rect x="68" y="156" width="120" height="3" rx="1.5" fill="url(#blueGlow)"/>
 
-      <!-- Subtitle Fixed + Dynamic Role -->
-      <text x="64" y="196" fill="#d5dcf0" font-size="20" font-weight="600">Full-Stack Platformlar · Bulut Edge Mimarisi · Masaüstü &amp; Mobil</text>
-      <text x="64" y="226" fill="#8b95b0" font-size="15.5" font-weight="400">Yüksek erişilebilirlikli web servisleri, reklamsız medya platformları ve yerel sistem araçları.</text>
+      <!-- Role / Bio -->
+      <text x="68" y="196" fill="#e2e8f0" font-size="20" font-weight="600">Full-Stack Platformlar &amp; Yerel Sistemler</text>
+      <text x="68" y="226" fill="#94a3b8" font-size="15" font-weight="400">Bulut edge servisleri, sıfır reklamlı ses motorları ve yüksek performanslı araçlar.</text>
 
-      <!-- Metric Pills Row -->
-      <g transform="translate(64, 266)">
-        <!-- Pill 1 -->
-        <rect x="0" y="0" width="162" height="46" rx="12" fill="#121524" stroke="#252b45" stroke-width="1"/>
-        <text x="16" y="20" fill="#00e5ff" font-size="14" font-weight="800">1,348+ Katkı</text>
-        <text x="16" y="36" fill="#7c859e" font-size="11" font-weight="500">Son 1 Yıl Aktivitesi</text>
+      <!-- Quick Metrics Chips -->
+      <g transform="translate(68, 258)">
+        <rect x="0" y="0" width="145" height="40" rx="10" fill="#0f172a" stroke="#1e293b"/>
+        <text x="16" y="25" fill="#38bdf8" font-size="13" font-weight="700">1,348+ Katkı</text>
 
-        <!-- Pill 2 -->
-        <rect x="174" y="0" width="166" height="46" rx="12" fill="#121524" stroke="#252b45" stroke-width="1"/>
-        <text x="190" y="20" fill="#a78bfa" font-size="14" font-weight="800">3 Edge Düğümü</text>
-        <text x="190" y="36" fill="#7c859e" font-size="11" font-weight="500">Cloudflare HA Cluster</text>
+        <rect x="157" y="0" width="145" height="40" rx="10" fill="#0f172a" stroke="#1e293b"/>
+        <text x="173" y="25" fill="#f8fafc" font-size="13" font-weight="700">3 Edge Düğümü</text>
 
-        <!-- Pill 3 -->
-        <rect x="352" y="0" width="156" height="46" rx="12" fill="#121524" stroke="#252b45" stroke-width="1"/>
-        <text x="368" y="20" fill="#f472b6" font-size="14" font-weight="800">5+ Canlı Ürün</text>
-        <text x="368" y="36" fill="#7c859e" font-size="11" font-weight="500">Web · Android · Win32</text>
-
-        <!-- Pill 4 -->
-        <rect x="520" y="0" width="144" height="46" rx="12" fill="#121524" stroke="#252b45" stroke-width="1"/>
-        <text x="536" y="20" fill="#34d399" font-size="14" font-weight="800">%99.98 Aktif</text>
-        <text x="536" y="36" fill="#7c859e" font-size="11" font-weight="500">Kesintisiz Dağıtım</text>
+        <rect x="314" y="0" width="145" height="40" rx="10" fill="#0f172a" stroke="#1e293b"/>
+        <text x="330" y="25" fill="#10b981" font-size="13" font-weight="700">Canlı Sistemler</text>
       </g>
     </g>
 
-    <!-- RIGHT COLUMN: Glassmorphic Command Center Terminal HUD -->
-    <g transform="translate(776, 38)">
-      <!-- Card Body -->
-      <rect width="452" height="284" rx="16" fill="url(#cardBg)" stroke="url(#rimLight)" stroke-width="1.2"/>
+    <!-- RIGHT COLUMN: Sound / Telemetry Waveform Visualizer -->
+    <g transform="translate(800, 52)">
+      <!-- Panel Frame -->
+      <rect width="412" height="236" rx="16" fill="#0a0f1d" stroke="#1e293b" stroke-width="1.2"/>
 
-      <!-- Window Header Bar -->
-      <path d="M 0 16 Q 0 0 16 0 L 436 0 Q 452 0 452 16 L 452 38 L 0 38 Z" fill="#1b2036" opacity="0.85"/>
-      <line x1="0" y1="38" x2="452" y2="38" stroke="#ffffff" stroke-opacity="0.08"/>
+      <!-- Console Header -->
+      <path d="M 0 16 Q 0 0 16 0 L 396 0 Q 412 0 412 16 L 412 36 L 0 36 Z" fill="#0d1424"/>
+      <line x1="0" y1="36" x2="412" y2="36" stroke="#1e293b" stroke-width="1"/>
+      <circle cx="20" cy="18" r="4.5" fill="#475569"/>
+      <circle cx="34" cy="18" r="4.5" fill="#475569"/>
+      <circle cx="48" cy="18" r="4.5" fill="#475569"/>
+      <text x="206" y="22" fill="#64748b" font-family="'Consolas', monospace" font-size="11" font-weight="600" text-anchor="middle">edge-network-telemetry.sys</text>
 
-      <!-- Window Controls -->
-      <circle cx="20" cy="19" r="5.5" fill="#ff5f56"/>
-      <circle cx="38" cy="19" r="5.5" fill="#ffbd2e"/>
-      <circle cx="56" cy="19" r="5.5" fill="#27c93f"/>
-      <text x="226" y="23" fill="#8b95b0" font-family="'Consolas', 'Courier New', monospace" font-size="11.5" font-weight="600" text-anchor="middle">kurfa-core://telemetry-hud</text>
+      <!-- Terminal content -->
+      <g font-family="'Consolas', monospace" font-size="12">
+        <text x="24" y="66" fill="#38bdf8">&gt; CLUSTER_NODES: ONLINE [HA_ACTIVE]</text>
+        <text x="24" y="90" fill="#64748b">PRIMARY : kurfacore.5sarsilmaz6.workers.dev</text>
+        <text x="24" y="110" fill="#64748b">REPLICA : kurfacore.yedek1.workers.dev</text>
+        <text x="24" y="130" fill="#64748b">AUDIO   : kurfanova.stream.cluster</text>
 
-      <!-- Terminal Content -->
-      <g font-family="'Consolas', 'Courier New', monospace" font-size="12.5">
-        <text x="22" y="66" fill="#00e5ff" font-weight="700">$ kurfa status --cluster --live</text>
+        <!-- Dynamic Animated Equalizer Bars -->
+        <g transform="translate(24, 150)">
+          <rect x="0" y="0" width="364" height="64" rx="8" fill="#050811" stroke="#131c31"/>
 
-        <text x="22" y="92" fill="#94a3b8">[CLUSTER]</text>
-        <text x="102" y="92" fill="#e2e8f0">Multi-Node Edge Architecture</text>
-
-        <!-- Node Status Rows -->
-        <rect x="22" y="106" width="408" height="28" rx="6" fill="#101322" stroke="#222942"/>
-        <circle cx="36" cy="120" r="4" fill="#10b981"/>
-        <text x="48" y="124" fill="#f1f5f9" font-size="11.5">node-01.primary</text>
-        <text x="182" y="124" fill="#64748b" font-size="11">workers.dev</text>
-        <text x="366" y="124" fill="#10b981" font-size="11" font-weight="700">ONLINE</text>
-
-        <rect x="22" y="140" width="408" height="28" rx="6" fill="#101322" stroke="#222942"/>
-        <circle cx="36" cy="154" r="4" fill="#10b981"/>
-        <text x="48" y="158" fill="#f1f5f9" font-size="11.5">node-02.failover</text>
-        <text x="182" y="158" fill="#64748b" font-size="11">yedek1.edge</text>
-        <text x="366" y="158" fill="#10b981" font-size="11" font-weight="700">SYNCED</text>
-
-        <rect x="22" y="174" width="408" height="28" rx="6" fill="#101322" stroke="#222942"/>
-        <circle cx="36" cy="188" r="4" fill="#00e5ff"/>
-        <text x="48" y="192" fill="#f1f5f9" font-size="11.5">kurfanova.stream</text>
-        <text x="182" y="192" fill="#64748b" font-size="11">web + android</text>
-        <text x="366" y="192" fill="#00e5ff" font-size="11" font-weight="700">ACTIVE</text>
-
-        <!-- Bottom Animated Telemetry Bar -->
-        <text x="22" y="226" fill="#8b95b0" font-size="11">BUILD PIPELINE: 30/30 TESTS PASSED · ZERO ERRORS</text>
-
-        <!-- Animated Equalizer / Load Bars -->
-        <g transform="translate(22, 238)">
-          <rect x="0" y="0" width="408" height="26" rx="6" fill="#0c0e1a" stroke="#1e243b"/>
-          <g fill="url(#brandGrad)">
-            <rect x="10" y="6" width="6" height="14" rx="2"><animate attributeName="height" values="6;16;8;14;6" dur="1.8s" repeatCount="indefinite"/><animate attributeName="y" values="14;4;12;6;14" dur="1.8s" repeatCount="indefinite"/></rect>
-            <rect x="22" y="4" width="6" height="16" rx="2"><animate attributeName="height" values="16;8;18;10;16" dur="1.5s" repeatCount="indefinite"/><animate attributeName="y" values="4;12;2;10;4" dur="1.5s" repeatCount="indefinite"/></rect>
-            <rect x="34" y="8" width="6" height="12" rx="2"><animate attributeName="height" values="10;18;6;14;10" dur="2.1s" repeatCount="indefinite"/><animate attributeName="y" values="10;2;14;6;10" dur="2.1s" repeatCount="indefinite"/></rect>
-            <rect x="46" y="5" width="6" height="15" rx="2"><animate attributeName="height" values="14;6;16;12;14" dur="1.7s" repeatCount="indefinite"/><animate attributeName="y" values="6;14;4;8;6" dur="1.7s" repeatCount="indefinite"/></rect>
-            <rect x="58" y="7" width="6" height="13" rx="2"><animate attributeName="height" values="8;16;10;18;8" dur="1.9s" repeatCount="indefinite"/><animate attributeName="y" values="12;4;10;2;12" dur="1.9s" repeatCount="indefinite"/></rect>
-            <rect x="70" y="4" width="6" height="16" rx="2"><animate attributeName="height" values="18;10;14;6;18" dur="1.6s" repeatCount="indefinite"/><animate attributeName="y" values="2;10;6;14;2" dur="1.6s" repeatCount="indefinite"/></rect>
-            <rect x="82" y="9" width="6" height="11" rx="2"><animate attributeName="height" values="10;16;8;14;10" dur="2.0s" repeatCount="indefinite"/><animate attributeName="y" values="10;4;12;6;10" dur="2.0s" repeatCount="indefinite"/></rect>
-            <rect x="94" y="5" width="6" height="15" rx="2"><animate attributeName="height" values="14;8;18;10;14" dur="1.4s" repeatCount="indefinite"/><animate attributeName="y" values="6;12;2;10;6" dur="1.4s" repeatCount="indefinite"/></rect>
+          <!-- 24 Animated Frequency Bars -->
+          <g fill="url(#blueGlow)">
+            <rect x="18" y="24" width="6" height="26" rx="2"><animate attributeName="height" values="10;36;18;28;10" dur="1.2s" repeatCount="indefinite"/><animate attributeName="y" values="36;10;28;18;36" dur="1.2s" repeatCount="indefinite"/></rect>
+            <rect x="30" y="18" width="6" height="32" rx="2"><animate attributeName="height" values="24;14;38;20;24" dur="1.5s" repeatCount="indefinite"/><animate attributeName="y" values="22;32;8;26;22" dur="1.5s" repeatCount="indefinite"/></rect>
+            <rect x="42" y="14" width="6" height="36" rx="2"><animate attributeName="height" values="30;42;16;34;30" dur="1.1s" repeatCount="indefinite"/><animate attributeName="y" values="16;4;30;12;16" dur="1.1s" repeatCount="indefinite"/></rect>
+            <rect x="54" y="20" width="6" height="30" rx="2"><animate attributeName="height" values="18;32;24;40;18" dur="1.4s" repeatCount="indefinite"/><animate attributeName="y" values="28;14;22;6;28" dur="1.4s" repeatCount="indefinite"/></rect>
+            <rect x="66" y="26" width="6" height="24" rx="2"><animate attributeName="height" values="12;28;38;14;12" dur="1.3s" repeatCount="indefinite"/><animate attributeName="y" values="34;18;8;32;34" dur="1.3s" repeatCount="indefinite"/></rect>
+            <rect x="78" y="16" width="6" height="34" rx="2"><animate attributeName="height" values="26;40;18;30;26" dur="1.6s" repeatCount="indefinite"/><animate attributeName="y" values="20;6;28;16;20" dur="1.6s" repeatCount="indefinite"/></rect>
+            <rect x="90" y="22" width="6" height="28" rx="2"><animate attributeName="height" values="16;34;22;38;16" dur="1.2s" repeatCount="indefinite"/><animate attributeName="y" values="30;12;24;8;30" dur="1.2s" repeatCount="indefinite"/></rect>
+            <rect x="102" y="12" width="6" height="38" rx="2"><animate attributeName="height" values="34;18;42;26;34" dur="1.4s" repeatCount="indefinite"/><animate attributeName="y" values="12;28;4;20;12" dur="1.4s" repeatCount="indefinite"/></rect>
+            <rect x="114" y="28" width="6" height="22" rx="2"><animate attributeName="height" values="10;26;36;14;10" dur="1.7s" repeatCount="indefinite"/><animate attributeName="y" values="36;20;10;32;36" dur="1.7s" repeatCount="indefinite"/></rect>
+            <rect x="126" y="18" width="6" height="32" rx="2"><animate attributeName="height" values="28;12;38;22;28" dur="1.3s" repeatCount="indefinite"/><animate attributeName="y" values="18;34;8;24;18" dur="1.3s" repeatCount="indefinite"/></rect>
+            <rect x="138" y="24" width="6" height="26" rx="2"><animate attributeName="height" values="14;36;20;30;14" dur="1.5s" repeatCount="indefinite"/><animate attributeName="y" values="32;10;26;16;32" dur="1.5s" repeatCount="indefinite"/></rect>
+            <rect x="150" y="16" width="6" height="34" rx="2"><animate attributeName="height" values="30;20;42;16;30" dur="1.1s" repeatCount="indefinite"/><animate attributeName="y" values="16;26;4;30;16" dur="1.1s" repeatCount="indefinite"/></rect>
+            <rect x="162" y="22" width="6" height="28" rx="2"><animate attributeName="height" values="18;34;12;40;18" dur="1.6s" repeatCount="indefinite"/><animate attributeName="y" values="28;12;34;6;28" dur="1.6s" repeatCount="indefinite"/></rect>
+            <rect x="174" y="14" width="6" height="36" rx="2"><animate attributeName="height" values="36;16;30;22;36" dur="1.2s" repeatCount="indefinite"/><animate attributeName="y" values="10;30;16;24;10" dur="1.2s" repeatCount="indefinite"/></rect>
+            <rect x="186" y="26" width="6" height="24" rx="2"><animate attributeName="height" values="12;28;38;14;12" dur="1.4s" repeatCount="indefinite"/><animate attributeName="y" values="34;18;8;32;34" dur="1.4s" repeatCount="indefinite"/></rect>
+            <rect x="198" y="18" width="6" height="32" rx="2"><animate attributeName="height" values="24;38;16;32;24" dur="1.3s" repeatCount="indefinite"/><animate attributeName="y" values="22;8;30;14;22" dur="1.3s" repeatCount="indefinite"/></rect>
+            <rect x="210" y="20" width="6" height="30" rx="2"><animate attributeName="height" values="16;30;40;18;16" dur="1.5s" repeatCount="indefinite"/><animate attributeName="y" values="30;16;6;28;30" dur="1.5s" repeatCount="indefinite"/></rect>
+            <rect x="222" y="12" width="6" height="38" rx="2"><animate attributeName="height" values="38;14;28;36;38" dur="1.1s" repeatCount="indefinite"/><animate attributeName="y" values="8;32;18;10;8" dur="1.1s" repeatCount="indefinite"/></rect>
           </g>
-          <text x="116" y="17" fill="#cbd5e1" font-size="11" font-weight="600">Edge Load: 14ms RTT · TLS 1.3 · Glass UI</text>
+
+          <text x="246" y="36" fill="#38bdf8" font-size="11" font-weight="700">RTT: 12ms</text>
         </g>
       </g>
     </g>
   </g>
 
-  <!-- Outer Border -->
-  <rect x="0.5" y="0.5" width="1279" height="359" rx="22" fill="none" stroke="url(#rimLight)" stroke-width="1"/>
+  <!-- Border -->
+  <rect x="0.5" y="0.5" width="1279" height="339" rx="20" fill="none" stroke="#1e293b" stroke-width="1"/>
 </svg>

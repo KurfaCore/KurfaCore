@@ -1,77 +1,57 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=7928CA,00DFD8,FF0080&height=220&section=header&text=KURFA%20CORE&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Architecting%20Native%20Systems%20%E2%80%A2%20Edge%20Cloud%20%E2%80%A2%20Modern%20UI&descSize=16&descAlignY=62&descAlign=50" width="100%" alt="Kurfa Core Header" />
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/KurfaCore">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00DFD8&center=true&vCenter=true&multiline=true&width=700&height=125&lines=Ozan+Sars%C4%B1lmaz+%E2%80%94+Kurfa+Core;Systems+Architect+%26+Windows+Desktop+Engineer;Creator+of+Kurfa+Core+%26+KurfaNova+Ecosystem;Rust+%E2%80%A2+C%2B%2B+%E2%80%A2+Win32+DWM+%E2%80%A2+Cloudflare+Workers" alt="Typing SVG" />
-  </a>
-</p>
+# Ozan Sarsılmaz · `KurfaCore`
 
-<p align="center">
-  <a href="https://kurfacore.5sarsilmaz6.workers.dev/">
-    <img src="https://img.shields.io/badge/Official_Platform-Kurfa_Core-7928CA?style=for-the-badge&logo=cloudflare-workers&logoColor=white" alt="Kurfa Core" />
-  </a>
-  <a href="https://kurfanova.kurfa.workers.dev/">
-    <img src="https://img.shields.io/badge/Music_Engine-KurfaNova-00DFD8?style=for-the-badge&logo=music&logoColor=000" alt="KurfaNova" />
-  </a>
-  <a href="https://github.com/KurfaCore">
-    <img src="https://img.shields.io/badge/Contributions-1300%2B-FF0080?style=for-the-badge&logo=github&logoColor=white" alt="Contributions" />
-  </a>
-  <a href="https://www.instagram.com/5o.z.a.n6/">
-    <img src="https://img.shields.io/badge/Instagram-@5o.z.a.n6-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-</p>
+**Systems Architect & Full-Stack Software Engineer**  
+*Native Windows Systems · Distributed Edge Cloud · High-Craft Interfaces*
+
+[![Platform](https://img.shields.io/badge/Platform-Kurfa_Core-111827?style=flat-square&logo=cloudflareworkers&logoColor=F38020)](https://kurfacore.5sarsilmaz6.workers.dev/)
+[![KurfaNova](https://img.shields.io/badge/Music_Engine-KurfaNova-111827?style=flat-square&logo=youtubemusic&logoColor=FF0033)](https://kurfanova.kurfa.workers.dev/)
+[![Instagram](https://img.shields.io/badge/Instagram-@5o.z.a.n6-111827?style=flat-square&logo=instagram&logoColor=E4405F)](https://www.instagram.com/5o.z.a.n6/)
+
+</div>
 
 ---
 
-### 🚀 Hakkımda & Mühendislik Vizyonu
+### Engineering Focus
 
-Yüksek başarımlı yerel masaüstü sistemleri (**Rust & Win32 DWM**), çok düğümlü bulut ve kenar bilişim (**Cloudflare Workers**) mimarileri ve **Apple Glassmorphism** felsefesine dayalı modern kullanıcı arayüzleri inşa eden sistem mimarı ve yazılım mühendisi.
+I design and ship lightweight, hardware-accelerated software across desktop, web, and edge infrastructure—prioritizing sub-second responsiveness, clean architecture, and zero-clutter UI.
 
-* ⚡ **Yerel Masaüstü Mühendisliği:** Windows DWM (Desktop Window Manager), DirectComposition saydamlık katmanları ve Tauri/Rust tabanlı 60+ FPS sistem entegrasyonları.
-* 🌐 **Kenar Bilişim & Bulut:** 3 bağımsız Cloudflare Worker düğümü üzerinde sıfır kesinti ve yüksek erişilebilirlik (HA) sunan dağıtık web ekosistemi.
-* 🎨 **Tasarım Refleksi:** Karmaşadan arındırılmış (Zero Clutter), buzlu cam (Frosted Glass), donanım hızlandırmalı mikromimari ve akıcı kullanıcı deneyimleri.
-
----
-
-### 🌟 Öne Çıkan Projeler & Ekosistem
-
-| Proje | Kategori | Açıklama | Bağlantı |
-| :--- | :---: | :--- | :---: |
-| **Kurfa Core** | `Edge Architecture` | 3 düğümlü (Node 1, Yedek 1, Yedek 2) Cloudflare Workers üzerine kurulu merkezi yönetim ve komuta platformu. | [Canlı Düğüm](https://kurfacore.5sarsilmaz6.workers.dev/) |
-| **KurfaNova** | `Web & Mobile` | Reklamsız, yıldırım hızında müzik akış platformu ve senkronize Android APK ekosistemi. | [Platform](https://kurfanova.kurfa.workers.dev/) |
-| **KurfaNova Android** | `Android App` | KurfaNova'nın web ile canlı senkronize çalışan yerel Android APK mobil istemcisi. | [Kaynak Kod](https://github.com/KurfaCore/kurfanova-app) |
-| **KurfaDPI** | `Networking / Win32` | Windows için hafif, yüksek performanslı ağ optimizasyonu ve DPI yönlendirme aracı. | `KurfaDPI Client` |
-| **KurfaCode** | `AI / Automation` | Yapay zeka destekli otonom geliştirme ve iş akışı optimizasyon alanı. | [Kaynak Kod](https://github.com/KurfaCore/KurfaCode) |
-| **Otomotiv Stüdyosu** | `3D WebGL` | Alman otomotiv markaları için tarayıcıda doğrudan çalışan 3B WebGL sunum sahnesi. | [Kaynak Kod](https://github.com/KurfaCore/alman-otomotiv-studyosu) |
+- **Native Windows & Systems:** Desktop utilities built with **Rust**, **C++**, **Win32 API**, **Windows DWM / DirectComposition**, and **Tauri** targeting 60+ FPS fluid motion.
+- **Distributed Edge Architecture:** Multi-node high-availability backends and static/API routing powered by **Cloudflare Workers**, **Pages**, and **GitHub Pages**.
+- **Interface Engineering:** Tactile, Apple-inspired frosted glass interfaces with strict visual hierarchy, responsive layouts, and accessible component design.
 
 ---
 
-### 🛠️ Teknoloji Cephaneliği (Tech Arsenal)
+### Featured Projects
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=rust,cpp,windows,tauri,ts,react,tailwind,vite,nextjs,cloudflare,bun,nodejs,git,powershell,vscode&theme=dark" alt="Tech Arsenal" />
-  </a>
-</p>
+| Project | Stack | Overview | Link |
+| :--- | :--- | :--- | :--- |
+| **KurfaNova** | `Web · Desktop · Edge` | Fast, ad-free music streaming platform with live lyrics, offline downloads, and cross-device sync. | [Live App](https://kurfanova.kurfa.workers.dev/) · [Source](https://github.com/KurfaCore/kurfanova) |
+| **KurfaNova Mobile** | `C# · .NET MAUI / Android` | Native Android client synced in real time with the KurfaNova web and desktop ecosystem. | [Repository](https://github.com/KurfaCore/kurfanova-app) |
+| **Nectar** | `Windows · Native UI` | Physics-animated notch and dynamic dock for Windows with real-time system integration. | [Repository](https://github.com/KurfaCore/Nectar) |
+| **Kurfa Core** | `Cloudflare Workers · Vite` | Multi-node high-availability web portal and ecosystem hub (3 independent edge nodes). | [Live Node](https://kurfacore.5sarsilmaz6.workers.dev/) |
+| **KurfaDPI** | `C++ · Win32 Networking` | Lightweight Windows network optimization and DPI routing utility. | `Desktop Client` |
+
+---
+
+### Tech Stack
+
+<div align="center">
+
+[![Tech Stack](https://skillicons.dev/icons?i=rust,cpp,cs,ts,react,tailwind,vite,nextjs,cloudflare,nodejs,bun,git,powershell,vscode&theme=dark)](https://skillicons.dev)
+
+</div>
 
 ```text
-  Native & Systems   ::  Rust • C++ • Win32 API • Windows DWM • Tauri
-  Frontend & UI      ::  TypeScript • React • Tailwind CSS • Vite • Framer Motion
-  Edge & Cloud       ::  Cloudflare Workers (HA 3-Node) • Cloudflare Pages • GitHub Pages
-  Tools & Toolchain  ::  Git • PowerShell • Bun • Node.js • MSVC Build Tools
+Systems & Desktop   Rust · C++ · C# · Win32 API · Windows DWM · Tauri
+Frontend & UI       TypeScript · React · Tailwind CSS · Vite · Next.js
+Edge & Cloud        Cloudflare Workers (3-Node HA) · Cloudflare Pages · GitHub Pages
+Tooling             Git · PowerShell · Bun · Node.js · MSVC
 ```
 
 ---
 
-<p align="center">
-  <i>"Zero clutter, hardware-accelerated performance, and uncompromising aesthetic engineering."</i>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=7928CA,00DFD8,FF0080&height=90&section=footer" width="100%" alt="Footer Wave" />
-</p>
-
-<!-- verified by Kurfa Core systems architecture -->
-<!-- ecosystem release v1.0.1 -->
+<div align="center">
+  <sub>Ozan Sarsılmaz · Built with precision, low overhead, and zero bloat.</sub>
+</div>
